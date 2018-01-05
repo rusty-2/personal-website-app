@@ -2,8 +2,16 @@
     box-sizing: border-box;
 }
 
+.contact-icon {
+    display: inline-block;
+    padding: 5px;
+    color: gray;
+}
+
 #articles {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
+    background-image: url('./pattern.png');
+    padding-top: 10%;
 }
 
 .skill-level-container {
@@ -25,6 +33,11 @@
 
 .skill-container {
     margin-left: 25%;    
+}
+
+#skills {
+    z-index: 5;
+    position: relative;
 }
 
 #skills p {
@@ -56,10 +69,6 @@
 
 .beginner {
     background-color: lightgreen;
-}
-
-#skills {
-    position: relative;
 }
 
 #skills-wrapper {
@@ -94,7 +103,11 @@
 
 .center-container {
     width: fit-content;
-    margin: 30px auto;
+    margin: auto;
+}
+
+.center-container:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 .lazy-img.centered-img {
@@ -107,7 +120,10 @@
     }
     .center-container {
         width: 80%;
-        margin: 20px auto;
+        margin: auto;
+    }
+    .center-container:not(:last-child) {
+        margin-bottom: 20px;
     }
 }
 
@@ -148,7 +164,7 @@
 /* slider - photo gallery */
 
 .slideshow-container {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), -20px -18px 20px 0px rgba(0, 0, 0, 0.19);
     height: fit-content;
     position: relative;
     margin: auto;
@@ -368,6 +384,7 @@ nav {
     text-decoration: none;
     color: white;
     transition: padding .3s ease;
+    z-index: 9999;
 }
 
 #navigate-top-icon:hover {
