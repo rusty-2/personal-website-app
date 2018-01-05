@@ -1,0 +1,120 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Welcome!</title>
+</head>
+
+<body>
+    <header></header>
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#" id="menu-icon" class="icon">&#9776;</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#articles">Articles</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </nav>
+    <section class="parallax" id="home">
+        <h1 class="header1">
+            <span>
+                Welcome
+            </span>
+            <span>
+                on my site
+            </span>
+        </h1>
+    </section>
+    <section class="parallax" id="about">
+
+    </section>
+    <section class="parallax" id="projects">
+        <div class="slideshow-container">
+            <div id="image-container" class="fade">
+                <img class="lazy-img loading fade" data-real-src="./test.jpg" />
+                <img class="lazy-img loading fade hidden" data-real-src="./test.jpg" />
+                <img class="lazy-img loading fade hidden" data-real-src="./test.jpg" />
+                <img class="lazy-img loading fade hidden" data-real-src="./test.jpg" />
+            </div>
+            <!-- <a class="fa fa-arrow-left slideshow-arrow"></a>
+            <a class="fa fa-arrow-right slideshow-arrow right-arrow"></a> -->
+            <div id="slideshow-dots-container">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+    <section id="articles">
+        <div class="center-container">
+            <img class="lazy-img loading centered-img" data-real-src="./test.jpg" />
+        </div>
+        <div class="center-container">
+            <img class="lazy-img loading centered-img" data-real-src="./test.jpg" />
+        </div>
+        <div class="center-container">
+            <img class="lazy-img loading centered-img" data-real-src="./test.jpg" />
+        </div>
+    </section>
+    <section id="skills">
+        <div id="skills-wrapper">
+            <div id="skills-container">
+                <h1>Skills</h1>
+                <div class="skill-container">
+                    <p>HTML</p>
+                    <div class="skill-level-container">
+                        <div class="skill good" data-skill-lvl="0.6">
+                        </div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="skill-level-container">
+                        <div class="skill intermediate" data-skill-lvl="0.4">
+                        </div>
+                    </div>
+                    <p>JavaScript</p>
+                    <div class="skill-level-container">
+                        <div class="skill expert" data-skill-lvl="1">
+                        </div>
+                    </div>
+                    <p>JQuery</p>
+                    <div class="skill-level-container">
+                        <div class="skill advanced" data-skill-lvl="0.8">
+                        </div>
+                    </div>
+                    <p>Angular</p>
+                    <div class="skill-level-container">
+                        <div class="skill beginner" data-skill-lvl="0.15">
+                        </div>
+                    </div>
+                    <p>MongoDB</p>
+                    <div class="skill-level-container">
+                        <div class="skill intermediate" data-skill-lvl="0.35">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+
+    </section>
+    <a href="#" id="navigate-top-icon">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+    <footer></footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+<script src="app.js"></script>
+
+</html>
