@@ -2,7 +2,30 @@
     box-sizing: border-box;
 }
 
+h1 {
+    overflow: hidden;
+}
+
+#contact-container h1 {
+    font-size: 200%;
+    text-align: center;
+    color: gray;
+}
+
+#contact-container {
+    padding: 20px 0 90px 0;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.contact-icon:hover {
+    color: rgb(103, 134, 165);
+}
+
 .contact-icon {
+    transition: font-size .5s ease;
+    font-size: 150%;
     display: inline-block;
     padding: 5px;
     color: gray;
@@ -29,6 +52,7 @@
 #skills-container h1 {
     color: lightgray;
     text-align: center;
+    font-size: 200%;
 }
 
 .skill-container {
@@ -73,7 +97,7 @@
 
 #skills-wrapper {
     background-color: #000000;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-image: url('./pattern.png');    
 }
 
