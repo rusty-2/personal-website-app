@@ -79,6 +79,10 @@ $(function () {
         }
       }
     }
+
+    if(isInViewPort($("#skills")[0])) {
+      animateSkills();
+    }
   }
 
   function isOnTopAndStillVisible(el, offset) {
@@ -86,8 +90,8 @@ $(function () {
     return rect.top <= offset && rect.top + rect.height > offset;
   }
 
-  function isInViewPort(img) {
-    var rect = img.getBoundingClientRect();
+  function isInViewPort(el) {
+    var rect = el.getBoundingClientRect();
     return rect.top >= 0 && rect.top < window.innerHeight;
   }
 
@@ -127,9 +131,11 @@ $(function () {
     triggerSlideChange(1);
   })();
 
-  $('.skill').each(function (indx, el) {
+  function animateSkills() {
+    $('.skill').each(function (indx, el) {
       $(el).animate({
         width: $(el).data('skill-lvl') * 100 + '%'
       }, 2000);
-  });
+    });
+  }
 });
