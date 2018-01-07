@@ -267,8 +267,8 @@ h1 {
 /* end slider - photo gallery */
 
 #about {
-    height: 1000px;
-    background-image: url('./about_background.jpg');
+    height: fit-content;
+    background-color: rebeccapurple;
     position: relative;
 }
 
@@ -290,10 +290,17 @@ h1 {
 }
 
 #location-marker {
+    padding: 0px 10px 0px 30px;
     color: orangered;
     font-size: 250%;
 }
 
+#location-container {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    position: relative;
+    left: 10%;
+}
 
 #location-text {
     color: lightgray;
