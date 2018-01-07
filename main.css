@@ -46,7 +46,6 @@ h1 {
 
 #skills-container {
     padding-top: 15px;
-    margin-left: 20px;
 }
 
 #skills-container h1 {
@@ -270,6 +269,35 @@ h1 {
 #about {
     height: 1000px;
     background-image: url('./about_background.jpg');
+    position: relative;
+}
+
+#map-container {
+    width: 70%;
+    position: absolute;
+    right: 0px;
+}
+
+#map-img {
+    width: 100%;
+}
+
+#location-header {
+    margin: 0;
+    padding: 30px;
+    font-size: 390%;
+    color: lightgray;
+}
+
+#location-marker {
+    color: orangered;
+    font-size: 250%;
+}
+
+
+#location-text {
+    color: lightgray;
+    font-size: 120%;
 }
 
 #home {
