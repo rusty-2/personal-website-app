@@ -273,7 +273,6 @@ h1 {
 }
 
 #map-container {
-    width: 70%;
     position: absolute;
     right: 0px;
 }
@@ -285,7 +284,7 @@ h1 {
 #location-header {
     margin: 0;
     padding: 30px;
-    font-size: 390%;
+    font-size: 4vw;
     color: lightgray;
 }
 
@@ -304,7 +303,7 @@ h1 {
 
 #location-text {
     color: lightgray;
-    font-size: 120%;
+    font-size: 2vw;
 }
 
 #home {
