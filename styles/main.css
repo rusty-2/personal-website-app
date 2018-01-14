@@ -33,7 +33,7 @@ h1 {
 
 #articles {
     padding-bottom: 10%;
-    background-image: url('./pattern.png');
+    background-image: url('../assets/pattern.png');
     padding-top: 10%;
 }
 
@@ -97,7 +97,7 @@ h1 {
 #skills-wrapper {
     background-color: #333333;
     padding-bottom: 40px;
-    background-image: url('./pattern.png');    
+    background-image: url('../assets/pattern.png');    
 }
 
 #skills-wrapper:before {
@@ -308,7 +308,7 @@ h1 {
 
 #home {
     height: 1000px;
-    background-image: url('./home_background.jpg');
+    background-image: url('../assets/home_background.jpg');
 }
 
 .parallax {
