@@ -28,11 +28,9 @@ $(function () {
   });
 
   var images = {};
-  var slideShowImgs = {};
-  (function init() {
+ (function init() {
     $('.lazy-img').each(function (indx, el) {
       images[indx] = el;
-      slideShowImgs[indx] = el;
       el.onload = function () {
         delete images[indx];
         $(el).removeClass('loading');
